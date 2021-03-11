@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="slvbjava.peldak.todoapp.MainActivity">
+
+   <item
+       android:id="@+id/oi_add_new"
+       android:orderInCategory="20"
+       android:title="Új teendő"
+       app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/oi_ordering_byname"
+        android:orderInCategory="30"
+        android:title="Teendők rendezése Név szerint"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/oi_ordering_bydate"
+        android:orderInCategory="30"
+        android:title="Teendők rendezése Időpont szerint"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/oi_ordering_bypriority"
+        android:orderInCategory="30"
+        android:title="Teendők rendezése Fontosság szerint"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/oi_remove_all"
+        android:orderInCategory="40"
+        android:title="Összes teendő törlése"
+        app:showAsAction="never"/>
+
+
+</menu>
